@@ -1,0 +1,315 @@
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+@font-face {
+  font-family: 'BEBAS';
+  src: url('../fonts/BEBAS_.ttf') format('truetype');
+}
+
+/*  =========BEGIN=========
+    BODY STYLES AND WHATNOT
+    =======================*/
+
+html, body{
+    font-family: "BEBAS";
+    letter-spacing: 1px;
+    word-spacing: 3px;
+    height: 100%;
+    color: white;
+    background: url(/img/poly.jpg) top right no-repeat;
+    background-attachment: fixed;    
+
+}
+
+section {
+    display: table;
+    position: relative;
+
+/*    min-height:calc(100% - 1px);*/
+    width: 100%;
+}
+header { /* takes up the whole screen*/
+/*    display: table;*/
+    position: relative;
+
+    min-height:calc(100% - 1px);
+    width: 100%;
+}
+
+/*  =======================
+    BODY STYLES AND WHATNOT
+    ==========END==========*/
+
+.without-background{
+    background-color: #050E13;
+}
+/*  =========BEGIN=========
+           NAV STYLES
+    =======================*/
+
+.nav, .navbar{
+/*    background-color: gray;*/
+    width: 20px;
+    min-width: 100%;
+}
+
+
+.navbar .navbar-nav { /*center the navbar*/
+    display: inline-block;
+    float: none;
+}
+
+.navbar .navbar-collapse { /*make the navbar elements centered*/
+    text-align: center;
+}
+
+#nav.affix {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index:10;
+}
+
+/*  =======================
+        NAV STYLES
+    =========END==========*/
+
+/*  =======BEGIN==========
+        CSS CIRCLES
+    ======================*/
+
+.circle-holder{
+/*    background-color: red;*/
+    height: 300px;
+}
+
+.circle{
+    width: 15px;
+    height: 15px;
+    background-color: white;
+    border: 5px solid white;
+    margin: 25px auto;
+    border-radius: 100%; /*this is what makes a circle a circle */
+}
+
+.iphone-circles{
+/*    display:inline-block;*/
+/*    font-size: 40px;*/
+/*    line-height: 50px;*/
+/*    background-color:black;*/
+/*    color:white;*/
+/*    width: 50px;*/
+/*    height: 50px;*/
+/*    text-align: center;*/
+/*    vertical-align: bottom;*/
+    
+}
+
+.iphone-circle{
+    margin: 20%; 
+}
+
+/*  ======================
+        CSS CIRCLES
+    =========END==========*/
+
+#iphone-img{ /*size of the iphone picture*/
+    width: 175px;
+    margin: 15%;
+/*    height: 250px;*/
+}
+
+#portofolio{
+    background-color: #1a1a1a;
+    padding: 1%;
+}
+
+.text-vertical-center {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.why-us-container{
+    padding: 2%;   
+}
+
+.how-it-works-container{
+    padding: 2%;   
+}
+
+.iphone-container{
+    padding: 2%;   
+}
+
+.vertical-align-div{
+     margin: 0 auto;   
+}
+
+.btn{
+    margin: 2%;   
+}
+
+.service-item{
+    margin: 5%;
+}
+
+#video-dummy{
+    width: 500px;
+    height: 300px;
+    background-color: cadetblue;
+}
+/*  =======BEGIN==========
+     QUOTES && LINKS STYLE
+    ======================*/
+
+#quote{
+    padding: 3%;
+    float: left;   
+}
+
+#qut-circle{
+    font-size: 100px;
+    float: right;
+}
+
+#qut-quote{
+    font-size: 100px;   
+}
+
+#qut-text{
+    padding: 1%;
+}
+#qut-text strong{
+    font-size: 200%;
+}
+
+.qut{
+    float: left;
+}
+
+.more-links, .more-links:hover{
+    padding-top: 3%;
+    padding-bottom: 3%;
+    padding-right: 7%;
+    color: inherit;
+}
+
+.social-links{
+    padding-left: 5%;
+    padding-right: 5%;
+    float: right;
+    color: #566272;
+/*    font-size: 10px;*/
+
+}
+
+.social-links:hover{
+    color: white;
+}
+
+.links-container{
+/*    width: 50%;*/
+/*    margin: 0 auto;*/
+    padding-top: 2%;
+    padding-bottom: 2%;
+
+    
+}
+
+.link-arrow{
+    padding: 1%;
+}
+
+.contact-link{
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+.contact-color{
+    color: #63B4BF;   
+}
+.contact-icon{
+/*    float: right;*/
+}
+.contact-icons{
+    max-width: 30px;
+    float: left;
+}
+.contact-texts{
+    max-width: 100%;
+    margin-left: 25px;
+    padding-bottom: 2px;
+}
+
+
+/*  ======================
+     QUOTES && LINKS STYLE
+    =========END==========*/
+
+#gallery{
+    min-height: 300px;
+/*    background-color: dimgray;*/
+}
+
+.global-brick{
+    color: #B15B4C;
+}
+
+#contact{
+    background: url(/img/contacts-background.jpg) top right no-repeat;
+    background-attachment: fixed;    
+    height: 400px;
+}
+
+#contacts{
+    background: url(/img/blueish-poly.jpg) top right no-repeat;
+    background-attachment: fixed;
+    padding-left: 3%;
+    max-width: 400px;
+    margin-left: 5%;
+   
+}
+
+#home{
+/* background-color: red;   */
+}
+
+
+.button-icon{
+       margin-right: 10px;
+}
+/*  ========BEGIN=========
+JSSOR SLIDER ARROW NAVIGATOR STYLE
+    ======================*/
+
+/*
+.jssora14l                  (normal)
+.jssora14r                  (normal)
+.jssora14l:hover            (normal mouseover)
+.jssora14r:hover            (normal mouseover)
+.jssora14l.jssora14ldn      (mousedown)
+.jssora14r.jssora14rdn      (mousedown)
+*/
+.jssora14l, .jssora14r {
+    display: block;
+    position: absolute;
+    /* size of arrow element */
+    width: 30px;
+    height: 50px;
+    cursor: pointer;
+    background: url(../img/a14.png) no-repeat;
+    overflow: hidden;
+}
+.jssora14l { background-position: -15px -35px; }
+.jssora14r { background-position: -75px -35px; }
+.jssora14l:hover { background-position: -135px -35px; }
+.jssora14r:hover { background-position: -195px -35px; }
+.jssora14l.jssora14ldn { background-position: -255px -35px; }
+.jssora14r.jssora14rdn { background-position: -315px -35px; }
+
+/*  ======================
+JSSOR SLIDER ARROW NAVIGATOR STYLE
+    =========END==========*/
