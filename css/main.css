@@ -1,0 +1,43 @@
+.filler {
+    min-width: 300px;
+/*    background-color: aquamarine;*/
+    margin: 10px;
+    border: 20px;
+}
+
+.square {
+    min-width: 30px;
+    min-height: 30px;
+    max-width: 30px;
+    max-height: 30px;
+    background-color: aliceblue;
+    margin: 1px;
+    display: inline-block;
+/*    float: left;*/
+
+}
+
+.squareRow {
+/*    background-color: red;*/
+    border: 0px;
+}
+
+#placeholderSquares {
+    
+    font-size: 0;/* fixer for the space between divs when using inline-block, because what the fuck*/
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    
+    cursor: default;
+    position : relative;
+    width : auto;
+    display : table;
+}
+
+#draggable {
+    width: 150px; height: 150px; padding: 0.5em;
+}
